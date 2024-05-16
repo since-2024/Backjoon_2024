@@ -4,5 +4,7 @@ python algorithm
 
 using settings
 
+```
 import sys
 input = sys.stdin.readline
+```
