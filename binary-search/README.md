@@ -43,3 +43,11 @@ for num in arr:				# arr의 각 원소별로 탐색
     #1654와 같은 유형.
     4764 ms로 통과. 비슷한 시간대에 384 ms 걸린 풀이도 보여서 다시 풀이 예정
 </details>
+
+---
+### #1072
+<details>
+<summary> ... </summary>
+
+    answer와 그를 구하는데 비교되는 승률의 혼동으로 조금 헤맸다.
+</details>
