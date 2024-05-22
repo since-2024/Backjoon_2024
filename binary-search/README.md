@@ -51,3 +51,17 @@ for num in arr:				# arr의 각 원소별로 탐색
 
     answer와 그를 구하는데 비교되는 승률의 혼동으로 조금 헤맸다.
 </details>
+
+---
+### #1072
+
+``` python
+    multiple_lines_list = [int(input()) for _ in range(n)]
+```
+<details>
+<summary> ... </summary>
+
+    집에서 빨리 쉬겠다며 퇴근 버스 안에서 풀었다.
+    그러다보니 전 문제에 풀었던 방식은 생각이 잘 났지만
+    list 를 만드는 컴프리헨션이 생각나지 않았기에 상기시킬겸 기록해둔다.
+</details>
