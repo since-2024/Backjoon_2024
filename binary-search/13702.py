@@ -1,4 +1,4 @@
-#
+# https://www.acmicpc.net/problem/13702
 #
 # Q:
 # 프로그래밍 대회 전날, 은상과 친구들은 이상한 술집에 모였다.
