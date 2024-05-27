@@ -5,8 +5,8 @@
 
 ---
 
-> Date:     2024-05-27  
 > [#3025](https://www.acmicpc.net/problem/3025)   
+> Date:     2024-05-27  
 > Q:        돌 던지기  
 > Level:    P4  
 > classic:  Data Structures (Stack)
