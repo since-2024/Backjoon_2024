@@ -88,3 +88,12 @@ for i in range(3, n+1):
 [참고한 링크](https://aia1235.tistory.com/34)
 
 </details>
+
+### #11060
+<details>
+<summary> ... </summary>
+
+    문제를 보고 생각하면서 대략적인 방향은 수립했으나,
+    입력받은 배열과 dp 값에 혼동이 오면서 조금은 헤맨 문제.
+    그런 것을 제외하면 문제는 쉬운편에 속함
+</details>
