@@ -1,0 +1,19 @@
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+tri = [list(map(int, input().split())) for _ in range(n)]
+
+dp = [[0] * 500 for _ in range(n+1)]
+dp[1][0] = tri[0][0]
+
+for i in range(2, n+1):
+	for j in range(0, i):
+		if j == 0:
+			dp[i][j] += dp[i-1][j] + tri[i-1][j]
+		elif j == (i-1):
+			dp[i][j] += dp[i-1][j-1] + tri[i-1][j]
+		else:
+			dp[i][j] += max(dp[i-1][j], dp[i-1][j-1]) + tri[i-1][j]
+	
+print(max(dp[n]))
