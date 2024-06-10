@@ -1,15 +1,17 @@
 > 알고리즘을 해결해가며 느낀점 + 개인적인 생각
 
 ---
-## Dynamic Programming
+## Data Structure (자료 구조)
 
-- 특정 범위까지의 값을 구하기 위해 '이전 범위의 값을 활용'하여 효율적으로 값을 얻는 기법
-- 이전 범위의 값을 저장(Memorization)하여, 똑같은 문제가 발생했을 때 이를 참조하여 해결함.
+### Priority Queue (우선순위 큐)
+> - 우선순위가 높은 데이터가 먼저 나가는 형태
+> - 힙(Heap)을 이용하여 구현
 
-~~점화식을 만들어서 적용한다는 느낌으로 접근해 볼 예정~~
+
+---
 
 ### #1655
-우선순위 큐 (Priority Queue)
+#### 우선순위 큐 (Priority Queue)
 
 ``` python
 import heapq
