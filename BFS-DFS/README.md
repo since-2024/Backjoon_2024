@@ -57,3 +57,34 @@ min_value = heapq.heappop(que)
     
     정렬되는 방식을 이해하진 못했으나, 우선순위 큐 문제를 풀기위해 어떻게 써야할지는 터득한 것 같다.
 </details>
+
+### #11725
+
+``` python
+# 메모리 초과나는 방법:
+graph_fail = [[False] * (n+1) for _ in range(n+1)]
+
+for i in range(n-1):
+    a, b = map(int, input().split())
+    graph_1[a][b] = True
+    graph_1[b][a] = True
+
+
+# 이를 해결하기 위한 방법:
+graph_succ = [[] for _ in range(n+1)
+
+for _ in range(n-1):
+    a, b = map(int, input().split())
+    graph_2[a].append(b)
+    graph_2[b].append(a)
+```
+
+<details>
+<summary> ... </summary>
+
+    메모리 초과를 맞은 문제.
+    dp 방식을 살려서 해보려고 했으나, 100,000^2 은 생각보다 큰 수였고,,,
+    연결이 되어있는 것만 잘 적용해주면 되는 풀이법을 배워왔다.
+
+[참고한 링크](https://d-cron.tistory.com/22)
+</details>
